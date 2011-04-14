@@ -1,0 +1,15 @@
+" pyspud Vim Settings
+"
+" State the obvious
+set nocompatible
+
+" Allow easy editing of vimrc
+" http://stackoverflow.com/questions/2400264/is-it-possible-to-apply-vim-configurations-without-restarting
+nmap <leader>v :e $MYVIMRC<CR>
+if has("autocmd")
+    augroup myvimrchooks
+        au!
+        autocmd bufwritepost .vimrc source ~/.vimrc
+    augroup END
+endif
+

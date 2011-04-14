@@ -1,0 +1,15 @@
+# HTC Magic
+# Normal
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="0bb4", ATTRS{idProduct}=="0c01", MODE="0666", OWNER="pyspud"
+#,Recovery
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="0bb4", ATTRS{idProduct}=="0c02", MODE="0666", OWNER="pyspud"
+# Fastboot
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="0bb4", ATTRS{idProduct}=="0fff", MODE="0666", OWNER="pyspud"
+
+# Samsung Google Nexus S
+# Normal Nexus S
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="18d1", ATTRS{idProduct}=="4e21", MODE="0666", OWNER="pyspud"
+# Debug & Recovery Nexus S
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="18d1", ATTRS{idProduct}=="4e22", MODE="0666", OWNER="pyspud"
+# Fastboot Nexus S
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="18d1", ATTRS{idProduct}=="4e20", MODE="0666", OWNER="pyspud"

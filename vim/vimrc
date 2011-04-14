@@ -13,3 +13,8 @@ if has("autocmd")
     augroup END
 endif
 
+" Why does Gvim need menus and icon bar?
+" It doesn't, remove them!
+set guioptions-=T
+set guioptions-=m
+

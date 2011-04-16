@@ -9,9 +9,12 @@ nmap <leader>v :e $MYVIMRC<CR>
 if has("autocmd")
     augroup myvimrchooks
         au!
-        autocmd bufwritepost .vimrc source ~/.vimrc
+        autocmd bufwritepost .vimrc source $MYVIMRC
     augroup END
 endif
+
+" Include the vimfiles from my settings repo in the runtimepath
+set runtimepath=~/settings/vim,$VIMRUNTIME
 
 " Why does Gvim need menus and icon bar?
 " It doesn't, remove them!

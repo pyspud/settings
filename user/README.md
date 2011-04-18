@@ -3,5 +3,5 @@ User
 
 * abcde.conf link to with ~/.abcde.conf
 * bash\_profile link to with ~/.bash\_profile
-* Solarized Dark.colorscheme link to with ~/.kde/share/apps/konsole/Solarized Dark.colorscheme
+* Use https://github.com/phiggins/konsole-colors-solarized as a git submodule to get updates on the colorscheme
 

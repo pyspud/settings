@@ -9,4 +9,5 @@ To init on new machine:
 Current submodules:
 
 * Solerized - https://github.com/altercation/vim-colors-solarized
+* Fugitive  - https://github.com/tpope/vim-fugitive
 

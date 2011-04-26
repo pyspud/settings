@@ -31,6 +31,11 @@ set guioptions-=R
 set guioptions-=l
 set guioptions-=L
 
+" Show some context when scrolling
+set scrolloff=2
+set sidescrolloff=3
+set sidescroll=1
+
 " Use Solerized dark
 " https://github.com/altercation/vim-colors-solarized
 syntax enable

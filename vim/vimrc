@@ -25,6 +25,11 @@ endif
 " It doesn't, remove them!
 set guioptions-=T
 set guioptions-=m
+" Remove GUI scroll bars
+set guioptions-=r
+set guioptions-=R
+set guioptions-=l
+set guioptions-=L
 
 " Use Solerized dark
 " https://github.com/altercation/vim-colors-solarized

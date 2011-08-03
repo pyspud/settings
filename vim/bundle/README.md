@@ -10,4 +10,5 @@ Current submodules:
 
 * Solerized - https://github.com/altercation/vim-colors-solarized
 * Fugitive  - https://github.com/tpope/vim-fugitive
+* Vim-Scala - https://github.com/ewiplayer/vim-scala.git
 

@@ -10,3 +10,6 @@
 [submodule "vim/bundle/scala"]
 	path = vim/bundle/scala
 	url = https://github.com/ewiplayer/vim-scala.git
+[submodule "vim/bundle/pathogen"]
+	path = vim/bundle/pathogen
+	url = https://github.com/tpope/vim-pathogen.git

@@ -3,13 +3,13 @@
 " State the obvious
 set nocompatible
 
-" Include the vimfiles from my settings repo in the runtimepath
-set runtimepath=~/settings/vim,$VIMRUNTIME
-
 " Use vim-pathogen by tpope
 " https://github.com/tpope/vim-pathogen
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+source ~/settings/vim/bundle/pathogen/autoload/pathogen.vim
+call pathogen#infect('~/settings/vim/bundle')
+syntax on
+filetype plugin indent on
+"call pathogen#helptags()
 
 " Allow easy editing of vimrc
 " http://stackoverflow.com/questions/2400264/is-it-possible-to-apply-vim-configurations-without-restarting

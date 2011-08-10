@@ -39,9 +39,11 @@ set sidescroll=1
 " Display Status line at all times
 set laststatus=2
 
+" Use example status line from fugitive
+set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
+
 " Use Solerized dark
 " https://github.com/altercation/vim-colors-solarized
-syntax enable
 set background=dark
 colorscheme solarized
 

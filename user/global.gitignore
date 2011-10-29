@@ -1,0 +1,51 @@
+# A Global Git ignore file
+# ========================
+# Uses example Global file from https://github.com/github/gitignore
+# To use git config --global core.excludesfile ~/settings/user/global.gitignore
+
+# Linux
+# -----
+
+.*
+!.gitignore
+*~
+
+# KDE
+.directory
+
+# Vim
+# ---
+
+.*.sw[a-z]
+*.un~
+Session.vim
+
+# Eclipse
+# -------
+
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
